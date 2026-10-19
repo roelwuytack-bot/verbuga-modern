@@ -39,18 +39,14 @@ Klik op **📖 Regels** in de bovenbalk om op elk moment de theorie te raadplege
 
 ## 🚀 Direct Gebruiken
 
-### Optie 1 — Lokaal openen (Geen installatie nodig)
-1. Download dit project of clone de repository:
+
+1. Download dit project
+   of clone de repository:
    ```bash
    git clone https://github.com/<jouw-gebruikersnaam>/verbuga-moderne.git
    ```
-2. Open **`Verbuga-modern.html`** (of hernoem het bestand naar `index.html`) simpelweg door erop te dubbelklikken in je browser.
+3. Open **`Verbuga-modern.html`** simpelweg door erop te dubbelklikken in je browser.
 
-### Optie 2 — Gratis online zetten via GitHub Pages
-1. Hernoem `Verbuga-modern.html` naar **`index.html`** en upload het naar je GitHub-repository.
-2. Ga in je repository naar **Settings** → **Pages**.
-3. Selecteer onder **Branch** de optie `main` (`/(root)`) en klik op **Save**.
-4. Je eigen Verbuga-website staat binnen één minuut live!
 
 ---
 

@@ -1,80 +1,64 @@
-# 🥖 Verbuga Modern — Franse Werkwoorden & Tijden Trainer
+# 🇫🇷 Verbuga Moderne — Franse Werkwoorden & Tijden Trainer
 
-Een moderne, razendsnelle en 100% standalone webapplicatie om **Franse werkwoordsvervoegingen** en **grammaticaregels** te oefenen. Gebouwd als één enkel zelfstandig HTML-bestand zonder externe afhankelijkheden — werkt direct offline in elke browser en kan met één klik gehost worden via **GitHub Pages**.
+Een moderne, razendsnelle en 100% standalone webapplicatie om **Franse werkwoordsvervoegingen** te trainen en te perfectioneren. Geïnspireerd op het klassieke *Verbuga*, maar volledig opnieuw opgebouwd met **slimme foutdiagnose**, een **Grind vs. Motivatie-modus** en een ingebouwd **Grammatica-spiekbriefje**.
+
+Volledig verpakt in **één enkel HTML-bestand** zonder externe afhankelijkheden — werkt direct offline in elke browser en is met één klik te hosten via **GitHub Pages**.
 
 ---
 
-## ✨ Belangrijkste Functionaliteiten
+## ✨ Functionaliteiten
 
-### 🎮 1. Interactieve Game Startpagina
-- **Retro Arcade & Modern Overzicht:** Kies tussen het sfeervolle retro startscherm (met bewegende Franse grammatica-achtergrond op HTML5 Canvas) of het uitgebreide kaarten-overzicht.
-- **Spelersprofiel & Progressie:** Verdien **XP**, stijg in **Level** en houd je langste **reeks (streak)** bij in je browser (`localStorage`).
+### 🎯 1. Uitgebreide Selectie & Presets (28 Werkwoorden × 10 Tijden)
+- **10 Tijden & Wijzen** *(met handige filters: Tegenwoordig, Verleden, Toekomend)*:
+  - *Indicatif présent*, *Passé récent*, *Passé composé*, *Imparfait*, *Plus-que-parfait*, *Futur proche*, *Futur simple*, *Conditionnel présent*, *Subjonctif*, *Impératif*.
+- **28 Kerngroep-werkwoorden** *(met presets voor Regelmatig, Spellingwijzigingen en Onregelmatig)*:
+  - `parler`, `finir`, `vendre`, `ouvrir`, `partir`, `sortir`, `dormir`, `servir`, `mentir`, `sentir`, `lever`, `appeler`, `jeter`, `employer`, `préférer`, `avoir`, `être`, `aller`, `faire`, `venir`, `pouvoir`, `vouloir`, `savoir`, `devoir`, `dire`, `écrire`, `recevoir`, `falloir`.
+- **Flexibele Sessie-opties:** Kies zelf het aantal opgaven (`10`, `20`, `35`, `50` of `Onbeperkt`) en stel in of accenten **strikt** of **vergevingsgezind** beoordeeld worden.
 
-### ✍️ 2. Werkwoorden Trainer (Tijden + Voornaamwoorden)
-- **28 Essentiële Werkwoorden:** Regelmatige (`-er`, `-ir`, `-re`), stamwisselende (`préférer`, `jeter`, `s'appeler`, `lever`, `employer`) en onregelmatige werkwoorden (`être`, `avoir`, `aller`, `faire`, `venir`, `pouvoir`, `vouloir`, `savoir`, `devoir`, `falloir`, `ouvrir`, `écrire`, `dire`, `recevoir`, `dormir`, `servir`, `mentir`, `sentir`, `sortir`, `partir`).
-- **10 Tijden & Wijzen:**
-  - *Indicatif Présent*
-  - *Passé Composé*
-  - *Imparfait*
-  - *Plus-que-parfait*
-  - *Passé Récent*
-  - *Futur Simple*
-  - *Futur Proche*
-  - *Conditionnel Présent*
-  - *Subjonctif Présent*
-  - *Impératif Présent*
-- **Slimme Foutdiagnose & Diff-analyse:** Zie letter voor letter waar je spelling of accent afwijkt, inclusief uitleg waarom een bepaalde stam, hulpwerkwoord (*avoir* vs. *être*) of uitgang gebruikt wordt.
-- **Active Recall Herhaling:** Typ na een fout het juiste antwoord direct één keer over om het motorisch in je geheugen vast te leggen; gemiste vormen keren automatisch terug in de wachtrij (*Spaced Repetition*).
-- **Franse Uitspraak (TTS) & Accentenbalk:** Ingebouwde Franse spraaksynthese (`Web Speech API`) en sneltoetsen voor Franse accenttekens (`é`, `è`, `ê`, `ë`, `ç`, `î`, `ï`, `ô`, `û`, `œ`).
+### ⚡ 2. Grind Modus vs. ✨ Motivatie Modus
+Wissel rechtsboven in de header direct tussen twee speelstijlen:
+- **⚡ Grind Modus:** Supersnelle, sobere modus zonder afleiding — bij een goed antwoord ga je direct door naar de volgende opgave om in korte tijd zoveel mogelijk vervoegingen te maken.
+- **✨ Motivatie Modus:** Verdien **XP**, stijg in **Level** (*Débutant* → *Maître*), bouw je **Streak (🔥)** op met geluidseffecten en confetti, en krijg uitgebreide visuele uitleg bij elke opgave.
 
-### 🧠 3. Regels Grinden (Volledig Scherm)
-- Interactieve meerkeuze-arena op volledig scherm om de **vormingsregels**, **stammen**, **hulpwerkwoorden (*avoir* vs. *être*)** en **uitzonderingen** te testen.
-- Filter per categorie (*Tijden & Formules*, *Stammen & Onregelmatig*, *Avoir vs Être*, *Valstrikken & Uitzonderingen*) en oefen na afloop specifiek je gemiste vragen.
+### 🧠 3. Slimme Foutdiagnose & Visuele Ontleding
+- **Foutoorzaak-herkenning:** Herkent automatisch *waarom* een vervoeging fout is (bijv. verkeerd hulpwerkwoord *avoir/être*, vergeten `-s` weg te laten bij de *tu*-vorm van de *impératif*, stamwissel vergeten bij `-er`, of een verkeerde tijduitgang).
+- **Visuele Anatomie-box:** Laat de vervoeging zien als een overzichtelijke bouwsteen-formule (`Stam` + `Uitgang` = `Resultaat`) met een 2-koloms stappenplan.
+- **Active Recall Herhaling:** Typ na een fout het juiste antwoord direct één keer over om de juiste spelling motorisch in je geheugen vast te leggen.
 
-### 🖨️ 4. Groot Regelblad (Volledige Breedte & Printklaar)
-- Overzichtelijk **2-koloms referentieblad** met alle 10 tijden, formules, signaalwoorden, uitgangen en klassieke valstrikken.
-- Geoptimaliseerd `@media print` stijlregelblad om het overzicht direct op **A4 of als PDF** af te drukken als spiekbrief.
+### ⭐ 4. Resultaten & Foutenmandje
+- Overzichtelijk eindscherm met je **scorepercentage**, aantal goede/foute antwoorden en je **beste streak**.
+- **Oefen alleen je fouten opnieuw:** Met één klik start je direct een nieuwe ronde met uitsluitend de vervoegingen die je in de vorige sessie fout had.
 
-### 📖 5. Ingebouwde Grammaticagids & Werkwoorden-Opzoeker
-- **4-Tab Spiekbriefje:** Tijden & Formules, Onregelmatige Stammen, Volledige Vervoegingstabel per werkwoord (alle 10 tijden naast elkaar) en Ezelsbruggetjes (*HET KOFSTUK*, *Dr. & Mrs. Vandertramp*, enz.).
-
-### ⚙️ 6. Uitgebreide Instellingen
-- Schakel tussen **Grind Mode** (maximale snelheid zonder onderbrekingen) en **Motivatie Mode** (XP, levels, geluiden en confetti).
-- Kies je **accenten-striktheid**, spraaksnelheid, geluidseffecten en **Donker / Licht Thema**.
+### 📖 5. Ingebouwde Grammaticagids & Spiekbriefje (3 Tabs)
+Klik op **📖 Regels** in de bovenbalk om op elk moment de theorie te raadplegen:
+1. **⏳ De 10 Tijden (Regels):** Alle formules, uitgangstabellen en uitzonderingen per tijd.
+2. **🔍 Werkwoord Vervoeger (Alle 28):** Kies één van de 28 werkwoorden en bekijk direct de volledige vervoegingstabel in alle 10 de tijden.
+3. **💡 Valstrikken & Vuistregels:** De 4 *être*-werkwoorden (`aller`, `venir`, `partir`, `sortir`), de wegvallende `-s` bij de *impératif*, spellingwijzigingen op `-er` en het onpersoonlijke `falloir`.
 
 ---
 
 ## 🚀 Direct Gebruiken
 
 ### Optie 1 — Lokaal openen (Geen installatie nodig)
-1. Download of clone deze repository:
+1. Download dit project of clone de repository:
    ```bash
-   git clone https://github.com/<jouw-gebruikersnaam>/verbuga-modern.git
+   git clone https://github.com/<jouw-gebruikersnaam>/verbuga-moderne.git
    ```
-2. Dubbelklik op **`index.html`** om de trainer direct in je browser te openen.
+2. Open **`Verbuga-modern.html`** (of hernoem het bestand naar `index.html`) simpelweg door erop te dubbelklikken in je browser.
 
-### Optie 2 — Gratis hosten via GitHub Pages
-1. Ga in je GitHub-repository naar **Settings** → **Pages**.
-2. Kies onder **Build and deployment** bij *Branch* voor `main` (en map `/ (root)`).
-3. Klik op **Save** — binnen een minuut staat je trainer online!
-
----
-
-## ⌨️ Sneltoetsen
-
-| Toets | Actie |
-| :--- | :--- |
-| `Enter` | Antwoord controleren / Volgende vraag |
-| `1` – `4` of `A` – `D` | Antwoordoptie kiezen tijdens *Regels Grinden* |
-| `Esc` | Openstaande pop-ups (Grammaticagids / Instellingen) sluiten |
+### Optie 2 — Gratis online zetten via GitHub Pages
+1. Hernoem `Verbuga-modern.html` naar **`index.html`** en upload het naar je GitHub-repository.
+2. Ga in je repository naar **Settings** → **Pages**.
+3. Selecteer onder **Branch** de optie `main` (`/(root)`) en klik op **Save**.
+4. Je eigen Verbuga-website staat binnen één minuut live!
 
 ---
 
 ## 🛠️ Technische Details
 
-- **Zero Dependencies:** Puur HTML5, CSS3 en Vanilla JavaScript (ES6+) in één enkel bestand (`index.html`).
-- **Offline-first:** Gebruikt `localStorage` voor het opslaan van voorkeuren, thema en XP-voortgang.
-- **Audio & Speech:** Maakt gebruik van de native `Web Audio API` (synthetische feedbacktonen) en `window.speechSynthesis` (`fr-FR`).
+- **100% Standalone Single-File:** Alle HTML5, CSS3, Vanilla JavaScript en de volledige database van 28 × 10 vervoegingen zitten in één bestand.
+- **Lichte & Donkere Modus:** Volledig ondersteund en opgeslagen in `localStorage`.
+- **Web Audio API:** Ingebouwde synthetische geluidseffecten (geen externe audiobestanden nodig).
 
 ---
 
